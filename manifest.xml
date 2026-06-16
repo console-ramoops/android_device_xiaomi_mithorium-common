@@ -9,10 +9,9 @@
         <transport>hwbinder</transport>
         <fqname>@7.0::IEffectsFactory/default</fqname>
     </hal>
-    <hal format="hidl">
+    <hal format="aidl">
         <name>android.hardware.bluetooth</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.0::IBluetoothHci/default</fqname>
+        <fqname>IBluetoothHci/default</fqname>
     </hal>
     <hal format="hidl">
         <name>android.hardware.camera.provider</name>
