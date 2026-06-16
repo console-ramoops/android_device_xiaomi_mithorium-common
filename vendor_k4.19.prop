@@ -1,2 +1,6 @@
 # Incremental FS
 ro.incremental.enable=1
+
+# SurfaceFlinger Stutter Fixes (4.19 DRM)
+debug.sf.disable_backpressure=1
+debug.sf.latch_unsignaled=1
